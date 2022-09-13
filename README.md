@@ -1,1 +1,1 @@
-# alx-low_level_programming
+Nested loops and not using standard C library functions
