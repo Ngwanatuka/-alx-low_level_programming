@@ -6,13 +6,19 @@
  *@n: number being tested
  * Return: Always 0.
  */
-
 int print_last_digit(int n)
 {
-	n = n % 10;
+	int a;
 
 	if (n < 0)
 		n = -n;
-		putchar(n + '0');
-		return (n);
+
+	a = n % 10;
+
+	if (a < 0)
+		a = -a;
+
+	putchar(a + '0');
+
+	return (a);
 }
