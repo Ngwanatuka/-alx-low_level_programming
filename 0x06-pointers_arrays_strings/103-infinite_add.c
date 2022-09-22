@@ -1,6 +1,6 @@
 #include "main.h"
 
-**
+/**
 * infinite_add - a function that adds two numbers
 * @n1: a char pointer given by main that represents a num
 * @n2: a char pointer given by main that represents a num
