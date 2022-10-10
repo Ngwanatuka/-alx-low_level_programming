@@ -2,9 +2,11 @@
 #define DOG_H
 
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
- * struc dog - a new type of data
+ * struct dog - a new type of data
+ * representing a dog
  * @name: the name of the dog
  * @age: age of the dog
  * @owner: name of the owner of the dog
